@@ -1,0 +1,6 @@
+edition = "2021"
+tab_spaces = 2 
+max_width = 80
+# nightly only
+imports_granularity = "Crate"
+

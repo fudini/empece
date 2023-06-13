@@ -1,0 +1,85 @@
+.lists {
+  display: flex;
+}
+
+.project-path {
+  display: inline-block;
+  margin-left: 10px;
+}
+
+.sequences {
+  background-color: #000;
+  padding: 10px;
+  width: 200px;
+}
+
+.songs {
+  background-color: #000;
+  padding: 10px;
+  margin-left: 10px;
+  width: 260px;
+}
+
+.save-button {
+  display: inline-block;
+  width: 16px;
+  text-align: center;
+  background-color: #3c4;
+  cursor: pointer;
+  color: black;
+}
+
+.delete-button {
+  display: inline-block;
+  width: 16px;
+  text-align: center;
+  background-color: #c34;
+  cursor: pointer;
+  color: black;
+  margin-left: 4px;
+}
+
+.songs .sign-button {
+  display: inline-block;
+  width: 16px; 
+  text-align: center;
+  background-color: #222;
+  margin-left: 1px;
+  cursor: pointer;
+}
+
+.songs .repeat {
+  display: inline-block;
+  width: 16px; 
+  text-align: center;
+}
+
+.sequence {
+  border: 1px solid #333;
+  background-color: #111;
+  padding: 0 0 0 2px;
+  font-size: 11px;
+  color: #ccc;
+  display: flex;
+  justify-content: space-between;
+  height: 18px;
+}
+
+.sequence-name {
+  flex: 1;
+  cursor: grabbing;
+}
+
+.sequence input {
+  border: none;
+  outline: none;
+  padding: 2px;
+  margin: 0;
+  font-size: 11px;
+  width: 100%;
+  -webkit-user-select: text;
+  -moz-user-select: text;
+  -ms-user-select: text;
+  user-select: text;
+}
+
