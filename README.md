@@ -1,4 +1,4 @@
-# Akai MPC sequence and song editor
+# Akai MPC sequence and song orderer
 
 It's cumbersome to do it in the Akai's software so..  
 This app lets you change order of your sequences and rename them.  
